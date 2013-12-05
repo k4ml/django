@@ -91,6 +91,7 @@ setup(
     license='BSD',
     packages=packages,
     package_data=package_data,
+    zip_safe=False,
     scripts=['django/bin/django-admin.py'],
     classifiers=[
         'Development Status :: 3 - Alpha',
